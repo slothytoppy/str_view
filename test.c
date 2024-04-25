@@ -6,6 +6,5 @@ int main(void) {
   str_view src = sv_from_parts("lo", 2);
   sv = sv_concat(dest, src);
   sv_print(sv);
-  sv = sv_concat(dest, src);
   return 0;
 }
